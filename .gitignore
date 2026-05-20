@@ -1,0 +1,6 @@
+data/
+
+# R files
+*.Rhistory
+
+
