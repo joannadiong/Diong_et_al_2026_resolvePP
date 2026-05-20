@@ -42,7 +42,7 @@ R code is made open for transparency, and researchers who may wish to read or ap
 
 The R script will call the raw data file stored in a folder labelled _data_ in the current directory, to perform statistical analysis. 
 
-Code files were written by Joy Shi (R v4.1): 
+R code to perform causal per-protocol analysis was written by Joy Shi (R v4.1): 
 
 * _RESOLVE_Bootstrap_Function_20250815.R_: R script to import dataset and perform statistical analyses
 
@@ -58,7 +58,7 @@ Run the R script in e.g. R Studio to replicate the analysis.
 
 ## Latex code
 
-LaTeX code to generate Fig 1 were written by Joanna Diong:
+LaTeX code to generate Fig 1 was written by Joanna Diong:
 
 * _fig1/fig1.tex_, which requires the dependency _myStyle.sty_
 
