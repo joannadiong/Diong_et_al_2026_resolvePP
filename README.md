@@ -38,7 +38,7 @@ De-identified data are available on reasonable request.
 
 ## R code 
 
-R code is made open for transparency. 
+R code is made open for transparency, and researchers who may wish to read or apply similar procedures. 
 
 The R script will call the raw data file stored in a folder labelled _data_ in the current directory, to perform statistical analysis. 
 
@@ -46,16 +46,22 @@ Code files were written by Joy Shi (R v4.1):
 
 * _RESOLVE_Bootstrap_Function_20250815.R_: R script to import dataset and perform statistical analyses
 
-### Running R code
-
-Create a folder labelled _data_ in the current directory. Place the dataset within that folder.
+To run the R script, create a folder labelled _data_ in the current directory. Place the dataset within that folder.
 
 In the script file line 38, set the file path for project to the current directory.
 
-Paths are currently set for Linux or Mac operating systems using forward slashes `/`. 
+Note, paths are currently set for Linux or Mac operating systems using forward slashes `/`. 
 They will need to be updated for Windows using backward slashes `\`, 
 or for different project locations on different machines. 
 
-Run the R script.
+Run the R script in e.g. R Studio to replicate the analysis.
+
+## Latex code
+
+LaTeX code to generate Fig 1 were written by Joanna Diong:
+
+* _fig1/fig1.tex_, which requires the dependency _myStyle.sty_
+
+Run _fig1.tex_ in e.g. Texmaker to generate a PDF of the figure and legend.
 
 
